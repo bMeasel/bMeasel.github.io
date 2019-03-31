@@ -25,7 +25,7 @@ public class indexProcessing extends HttpServlet {
 		
 		request.getSession().setAttribute("input", ConvertSelector(leftDropBox, rightDropBox, input));
 		System.out.println("TEST");
-		response.sendRedirect("/CodeConverterWebsite/jsp/outputCode.jsp");
+		response.sendRedirect("/bMeasel.github.io/jsp/outputCode.jsp");
 	}
 	
 	public static String ConvertSelector(String from, String to, String code) 
